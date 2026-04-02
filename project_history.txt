@@ -1,0 +1,330 @@
+    1  pig -c 4 8.8.8.8 > ~/network_check.txt
+    2  ping -c 4 8.8.8.8 > ~/network_check.txt
+    3  ping -c 4 192.168.1.1 >> ~/network_check.txt
+    4  cat ~/network_check.txt
+    5  getenforce > ~/selinux_status.txt
+    6  cp /etc/fstab ~/fstab.txt
+    7  sudo dnf install -y nginx
+    8  sudo systemtl enable --now nginx
+    9  sudo systemctl ensble --now nginx
+   10  sudo systemctl enable --now nginx
+   11  journalctl -u nginx --since "5 minutes ago" > ~/nginx_recent_logs.txt
+   12  echo "<h1>Hello from 554433</h1>" | sudo tee /usr/share/nginx/html/index.html
+   13  echo "<h1>Привет от студента: 554433</h1>" | sudo tee /usr/share/nginx/html/index.html
+   14  cp /usr/share/nginx/html/index.html ~/index.html
+   15  history > ~/progect_history.txt
+   16  stat /usr/share/nginx/html/index.html > ~/permissions.txt
+   17  Is -F ~
+   18  is -f ~
+   19  ls -F ~
+   20  mv ~/progect_history.txt ~/project_history.txt
+   21  echo "<h1>Привет от студента: 183447</h1>" | sudo tee /usr/share/nginx/html/index.html
+   22  cp /usr/share/ngimx/html/index.html ~/idex.html
+   23  echo "<h1>Привет от студента: 183447</h1>" | sudo tee /usr/share/nginx/html/index.html
+   24  cp /usr/share/nginx/html/index.html ~/index.html
+   25  ls -F ~
+   26  echo '<meta charset=utf-8"> "<h1>Привет от студента: 183447</h1>" | sudo tee /usr/share/nginx/html/index.html
+   27  cp /usr/share/nginx/html/index.html ~/index.html
+   28  ls -F ~
+   29  echo '<meta charset="utf-8"><h1>Привет от студента: 183447</h1>' | sudo tee /usr/share/nginx/html/index.html
+   30  cp /usr/share/nginx/html/index.html ~/index.html
+   31  ls -F ~
+   32  ls -l ~/fstab.txt ~/nnetwork_check.txt ~/nginx_recent_logs.txt ~/permissions.txt ~/project_history.txt ~/selinux_status.txt
+   33  mv ~/nnetwork_check.txt ~/network_check.txt 2>/dev/null || ping -c 3 8.8.8.8 > ~/network_check.txt
+   34  sudo cat /data/mephi-web/index.html > ~/index.html
+   35  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /data/mephi-web/index.html"
+   36  curl http://localhost
+   37  udo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /data/mephi-web/index.html"
+   38  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /data/mephi-web/index.html"
+   39  curl http://192.168.1.100
+   40  curl http://localhost
+   41  sudo systemctl enable --now nginx
+   42  curl http://localhost
+   43  ip addr show | grep inet
+   44  curl http://10.0.2.15
+   45   curl http://localhost
+   46  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /data/mephi-web/index.html"
+   47  curl http://10.0.2.15
+   48  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /data/mephi-web/index.html"
+   49  180895Zur.
+   50  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /data/mephi-web/index.html"
+   51  curl http://10.0.2.15
+   52  sudo rm /data/mephi-web/index.html
+   53  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /data/mephi-web/index.html"
+   54  sudo systemctl restart nginx
+   55  curl http://10.0.2.15
+   56  grep -r "183447" /etc/nginx/
+   57  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /data/mephi-web/index.html"
+   58  sudo systemctl restart nginx
+   59   curl http://10.0.2.15
+   60  nginx -T | grep root
+   61  sudo nginx -T | grep root
+   62  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /usr/share/nginx/html/idex.html"
+   63  sudo systemctl restart nginx
+   64  curl http://10.0.2.15
+   65  udo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /usr/share/nginx/html/index.html"         
+   66  sudo bash -c "echo '<h1>Привет от студента: 255947</h1>' > /usr/share/nginx/html/index.html" 
+   67  sudo systemctl restart nginx
+   68  curl http://10.0.2.15
+   69  ping -c 4 10.0.2.2 > ~/network_check.txt
+   70  ping -c 4 10.0.2.2 >> ~/network_check.txt
+   71  cat ~/network_check.txt
+   72  journalctl -u nginx -n 50 > ~/nginx_recent_logs.txt
+   73  cat ~/nginx_recent_logs.txt
+   74  sudo chowm -R mephi-admin:mephi-devs /data/mephi-web
+   75  sudo chown -R mephi-admin:mephi-devs /data/mephi-web
+   76  sudo groupadd mephi-devs
+   77  sudo chown -R mephi-admin:mephi-devs /data/mephi-web
+   78  stat /data/mephi-web
+   79  sudo chcon -R -t httpd_sys_content_t /data/mephi-web
+   80  sudo chown -R mephi-admin:mephi-devs /data/mephi-web
+   81  stat /data/mephi-web
+   82  sudo groupadd mephi-devs
+   83  sudo usermod -aG mephi-devs mephi-admin
+   84  export LANG=ru_RU/UTF-8
+   85  id mephi-admin > ~?users_group.txt
+   86  getent group mephi-devs >> ~/users_group.txt
+   87  cat ~/users_groups.txt
+   88  sudo groupadd mephi-devs
+   89  sudo usermod -aG mephi-devs mephi-admin
+   90  export LANG=ru_RU/UTF-8
+   91  d mephi-admin > ~/users_group.txt
+   92  id mephi-admin > ~/users_group.txt
+   93  getent group mephi-devs >> ~/users_group.txt
+   94  cat ~/users_groups.txt
+   95  newgrp mephi-devs
+   96  export LANG=C
+   97  id mephi-admin > ~/users_group.txt
+   98  getent group mephi-devs >> ~/users_group.txt
+   99  cat ~/users_groups.txt
+  100  id mephi-admin > ~/users_group.txt
+  101  getent group mephi-devs >> ~/users_group.txt
+  102  cat ~/users_groups.txt
+  103  sudo usermod -aG mephi-devs mephi-admin
+  104   id mephi-admin > ~/users_groups.txt
+  105   getent group mephi-devs >> ~/users_groups.txt
+  106  cat ~/users_groups.txt
+  107  cat ~/project_history.txt
+  108  locale
+  109  curl http://10.0.2.15 | iconv -f cp1251 -t utf-8
+  110  curl http://10.0.2.15:52000 | iconv -f utf-8 -t latin1 | iconv -f cp 1251 -t utf-8
+  111  curl http://10.0.2.15:52000 | iconv -f utf-8 -t latin1 | iconv -f cp1251 -t utf-8
+  112  sudo hostnamectl set-hostname mephi-2026.domain.local
+  113  exit
+  114  sudo reboot
+  115  ip a
+  116  sudo nmcli con "Wired connection 1" ipv4.addresses 192.168.1.100/24 ipv4.dns 8.8.8.8 ipv4.method manual
+  117  sudo nmcli con up "Wired connection 1"
+  118  sudo nmcli device modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.dns 8.8.8.8 ipv4.method manual
+  119   sudo nmcli device teapply enp0s3
+  120  sudo nmcli device reapply enp0s3
+  121  ip a show enp0s3
+  122  sudo nmcli device modify enp0s3 ip^C.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ^Cpv4.dns 8.8.8.8 ipv4.method manual
+  123  udo nmcli device modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.dns 8.8.8.8 ipv4.method manual
+  124  sudo nmcli device modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.dns 8.8.8.8 ipv4.method manual
+  125  sudo nmcli device reapply enp0s3
+  126   ip a show enp0s3
+  127  ip a show enp0s3
+  128  sudo nmcli con mod "enp0s3" ipv4.addresses 192.168.1.100/24 ipv4.method manual
+  129  nmcli con show
+  130  [200~ping -c 4 8.8.8.8 > ~/network_check.txt
+  131  ping -c 4 192.168.1.1 >> ~/network_check.txt
+  132  cat ~/network_check.txt
+  133  getenforce > ~/selinux_status.txt~
+  134  ping -c 4 8.8.8.8 > ~/network_check.txt
+  135  ping -c 4 192.168.1.1 >> ~/network_check.txt
+  136  cat ~/network_check.txt
+  137   getenforce > ~/selinux_status.txt
+  138  echo "<h1>Привет от студента: 255947</h1>" | sudo tee /data/mephi-web/index.html
+  139  stat /data/mephi-web/index.html > ~/permissions.txt
+  140  ls -ld /data/mephi-web >> ~/permissions.txt
+  141  history > ~/project_history.txt
+  142  cat ~/project_history.txt
+  143  sudo hostnamectl set-hostname mephi-2026
+  144  echo '<meta charset="utf-8"><h1>Привет от студента: 255947</h1>' | sudo tee /data/mephi-web/index.html
+  145  curl http://192.168.1.100
+  146  sudo e2label /dev/sdb1 MEPHI_DATA
+  147  sudo nano /etc/fstab
+  148  rm -f ~/*.txt
+  149  ping -c 4 192.168.1.1 > ~/network_check.txt
+  150  ping -c 4 8.8.8.8 >> ~/network_check.txt
+  151  id mephi-admin > ~/users_groups.txt
+  152  getent group mephi-devs >> ~/users_groups.txt
+  153  getenforce > ~/selinux_status.txt
+  154  ls -Zd /data/mephi-web > ~/file_contexts.txt
+  155  stat /data/mephi-web > ~/permissions.txt
+  156  getcap /usr/sbin/tcpdump > ~/tcpdump_capabilities.txt
+  157  cp /etc/fstab ~/fstab.txt
+  158  journalctl -u nginx --since "10 minutes ago" > ~/nginx_resent_logs.txt
+  159  curl -s http://192.168.1.100 > ~/curl_output.txt
+  160  history > ~/project_history.txt
+  161  git add .
+  162  lsblk
+  163  ping -c 4 192.168.1.1 > ~/network_check.txt
+  164  ping -c 4 8.8.8.8 >> ~/network_check.txt
+  165  id mephi-admin > ~/users_groups.txt
+  166  getent group mephi-devs >> ~/users_groups.txt
+  167  getenforce > ~/selinux_status.txt
+  168  ls -Zd /data/mephi-web > ~/file_contexts.txt
+  169  stat /data/mephi-web > ~/permissions.txt
+  170  getcap /usr/sbin/tcpdump > ~/tcpdump_capabilities.txt
+  171  sudo cp /etc/fstab ~/fstab.txt
+  172  journalctl -u nginx --since "5 minutes ago" > ~/nginx_recent_logs.txt
+  173  curl -s http://192.168.1.100 > ~/curl_output.txt
+  174  history > ~/project_history.txt
+  175  [200~ping -c 4 192.168.1.1 > ~/network_check.txt
+  176  ping -c 4 192.168.1.1 > ~/network_check.txt
+  177  ping -c 4 8.8.8.8 >> ~/network_check.txt
+  178  git add network_check.txt
+  179  ping -c 4 192.168.1.1 > ~/network_check.txt
+  180  git add *.txt
+  181  git init
+  182  git add *.txt
+  183  git commit -m "Final submission with correct 192.168.1.1 IP and Student ID 255947"
+  184  git remote add origin https://github.com
+  185  git add *.txt
+  186  git commit -m "Final reports submission for Student ID 255947"
+  187  git add *.txt
+  188  git commit -m "Final reports submission for Student ID 255947"
+  189  git add network_check.txt selinux_status.txt users_groups.txt file_contexts.txt permissions.txt nginx_recent_logs.txt curl_output.txt project_history.txt fstab.txt tcpdump_capabilities.txt
+  190  ping -c 4 8.8.8.8 > network_check.txt
+  191  id mephi-admin > users_groups.txt
+  192  getenforce > selinux_status.txt
+  193  ls -Zd /data/mephi-web > file_contexts.txt
+  194  stat /data/mephi-web > permissions.txt
+  195  journalctl -u nginx --since "5 minutes ago" > nginx_recent_logs.txt
+  196  curl -s http://192.168.1.100 > curl_output.txt
+  197  history > project_history.txt
+  198  cp /etc/fstab ./fstab.txt
+  199  git add *.txt
+  200  git commit -m "Final reports submission for Student ID 255947"
+  201  cat ~/curl_output.txt
+  202  git push -u origin main
+  203  git branch -M main
+  204  git add *.txt
+  205  git commit -m "Final submission for Student ID 255947"
+  206  ping -c 4 192.168.1.1 > network_check.txt
+  207  id mephi-admin > users_groups.txt
+  208  getenforce > selinux_status.txt
+  209  ls -Zd /data/mephi-web > file_contexts.txt
+  210  stat /data/mephi-web > permissions.txt
+  211  getcap /usr/sbin/tcpdump > tcpdump_capabilities.txt
+  212  sudo cp /etc/fstab fstab.txt
+  213  journalctl -u nginx --since "5 minutes ago" > nginx_recent_logs.txt
+  214  curl -s http://192.168.1.100 > curl_output.txt
+  215  history > project_history.txt
+  216  git add *.txt
+  217  git commit -m "Final reports for student 255947"
+  218  git push -u origin main
+  219  git remote remove origin
+  220  git remote add origin https://github.com
+  221  git add *.txt
+  222  git commit -m "Full report collection for student 255947"
+  223  rm -f *.txt *.txt~
+  224  rm -f *контексты*
+  225  ls -a
+  226  [200~ping -c 4 192.168.1.1 > network_check.txt
+  227  ping -c 4 8.8.8.8 >> network_check.txt
+  228  id mephi-admin > users_groups.txt
+  229  getent group mephi-devs >> users_groups.txt
+  230  getenforce > selinux_status.txt
+  231  ls -Zd /data/mephi-web > file_contexts.txt
+  232  stat /data/mephi-web > permissions.txt
+  233  getcap /usr/sbin/tcpdump > tcpdump_capabilities.txt
+  234  sudo cp /etc/fstab fstab.txt
+  235  git add *.txt
+  236  git commit -m "Final project submission for ID 255947"
+  237  git remote remove origin
+  238  git remote add origin https://github.com
+  239  git branch -M main
+  240  git push -u origin main --force
+  241  git remote remove origin
+  242  git remote add origin https://github.com
+  243  ping -c 4 192.168.1.1 > network_check.txt
+  244  ping -c 4 8.8.8.8 >> network_check.txt
+  245  id mephi-admin > users_groups.txt
+  246  getent group mephi-devs >> users_groups.txt
+  247  getenforce > selinux_status.txt
+  248  ls -Zd /data/mephi-web > file_contexts.txt
+  249  stat /data/mephi-web > permissions.txt
+  250  getcap /usr/sbin/tcpdump > tcpdump_capabilities.txt
+  251  sudo cp /etc/fstab fstab.txt
+  252  journalctl -u nginx --since "5 minutes ago" > nginx_recent_logs.txt
+  253  curl -s http://192.168.1.100 > curl_output.txt
+  254  history > project_history.txt
+  255  git add *.txt
+  256  git commit -m "Final project submission for Student ID 255947"
+  257  git push -u origin main --force
+  258  git remote remove origin
+  259  git remote add origin https://github.com/rfugu2003-dotcom/mephi-session-project-2026/tree/main
+  260  git add *.txt
+  261  git commit -m "Final reports for student 255947"
+  262  ping -c 4 192.168.1.1 > network_check.txt
+  263  ping -c 4 8.8.8.8 >> network_check.txt
+  264  id mephi-admin > users_groups.txt
+  265  getent group mephi-devs >> users_groups.txt
+  266  getenforce > selinux_status.txt
+  267  ls -Zd /data/mephi-web > file_contexts.txt
+  268  stat /data/mephi-web > permissions.txt
+  269  getcap /usr/sbin/tcpdump > tcpdump_capabilities.txt
+  270  sudo cp /etc/fstab fstab.txt
+  271  journalctl -u nginx --since "5 minutes ago" > nginx_recent_logs.txt
+  272  curl -s http://192.168.1.100 > curl_output.txt
+  273  history > project_history.txt
+  274  git add *.txt
+  275  git commit -m "Final reports for student 255947"
+  276  git remote remove origin
+  277  git remote add origin https://github.com/rfugu2003-dotcom/mephi-session-project-2026/tree/main
+  278  git branch -M main
+  279  git push -u origin main --force
+  280  git remote remove origin
+  281  git remote add origin https://github.com/rfugu2003-dotcom/mephi-session-project-2026.git
+  282  git add *.txt
+  283  git commit -m "Final reports for student 255947"
+  284  ping -c 4 192.168.1.1 > network_check.txt
+  285  ping -c 4 8.8.8.8 >> network_check.txt
+  286  id mephi-admin > users_groups.txt
+  287  getent group mephi-devs >> users_groups.txt
+  288  getenforce > selinux_status.txt
+  289  ls -Zd /data/mephi-web > file_contexts.txt
+  290  stat /data/mephi-web > permissions.txt
+  291  getcap /usr/sbin/tcpdump > tcpdump_capabilities.txt
+  292  sudo cp /etc/fstab fstab.txt
+  293  journalctl -u nginx --since "5 minutes ago" > nginx_recent_logs.txt
+  294  curl -s http://192.168.1.100 > curl_output.txt
+  295  history > project_history.txt
+  296  git add *.txt
+  297  git commit -m "Final submission for Student ID 255947"
+  298  git push -u origin main --force
+  299  git add network_check.txt users_groups.txt selinux_status.txt file_contexts.txt permissions.txt tcpdump_capabilities.txt fstab.txt nginx_recent_logs.txt curl_output.txt project_history.txt
+  300  git commit -m "Complete report submission for Student ID 255947"
+  301  ping -c 4 192.168.1.1 > network_check.txt
+  302  ping -c 4 8.8.8.8 >> network_check.txt
+  303  id mephi-admin > users_groups.txt
+  304  getent group mephi-devs >> users_groups.txt
+  305  getenforce > selinux_status.txt
+  306  ls -Zd /data/mephi-web > file_contexts.txt
+  307  stat /data/mephi-web > permissions.txt
+  308  getcap /usr/sbin/tcpdump > tcpdump_capabilities.txt
+  309  sudo cp /etc/fstab fstab.txt
+  310  journalctl -u nginx --since "5 minutes ago" > nginx_recent_logs.txt
+  311  curl -s http://192.168.1.100 > curl_output.txt
+  312  history > project_history.txt
+  313  ls *.txt
+  314  git add *.txt
+  315  git commit -m "Final submission for Student ID 255947"
+  316  git push -u origin main --force
+  317  git add *.txt
+  318  git commit -m "Complete report collection for Student ID 255947"
+  319  ping -c 4 192.168.1.1 > network_check.txt
+  320  ping -c 4 8.8.8.8 >> network_check.txt
+  321  id mephi-admin > users_groups.txt
+  322  getent group mephi-devs >> users_groups.txt
+  323  getenforce > selinux_status.txt
+  324  ls -Zd /data/mephi-web > file_contexts.txt
+  325  stat /data/mephi-web > permissions.txt
+  326  getcap /usr/sbin/tcpdump > tcpdump_capabilities.txt
+  327  sudo cp /etc/fstab fstab.txt
+  328  journalctl -u nginx --since "5 minutes ago" > nginx_recent_logs.txt
+  329  curl -s http://192.168.1.100 > curl_output.txt
+  330  history > project_history.txt
